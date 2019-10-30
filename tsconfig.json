@@ -1,0 +1,24 @@
+{
+  "include": [
+    "config/**/*",
+    "src/**/*"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "esnext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "build",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "src/types/*"
+      ]
+    }
+  },
+}
